@@ -10,21 +10,8 @@
   grid-gap: 7px;
 }
 
-.header {
-  grid-area: h;
-  background-color: #98c415;
-}
 
-.nav {
-  grid-area: n;
-  background-image: url("https://avatanplus.com/files/resources/original/593e52dfde99515c9b73baa8.jpg");
-}
 
-.content {
-  grid-area: c;
-  background-color: #efe52e;
-}
 
-header img {
-  width: 50px;
-}
+
+
