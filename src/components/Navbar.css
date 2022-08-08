@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
 .nav {
     grid-area: n;
     background-image: url("https://avatanplus.com/files/resources/original/593e52dfde99515c9b73baa8.jpg");
+    padding: 30px 20px;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.item a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #536016;
+}
+
+.item a:hover {
+    color: #ef852e;
 }
