@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Oleo+Script+Swash+Caps&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 .content {
     grid-area: c;
-    background-color: #efe52e;
+    background-color: #f6df5f;
 }
