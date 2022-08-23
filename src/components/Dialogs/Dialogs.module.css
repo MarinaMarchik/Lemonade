@@ -1,5 +1,16 @@
 .dialogs {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
     font-size: 20px;
-    font-weight: bold;
-    color: #b75a0e;
+    color: #536016;
+    padding: 20px;
 }
+
+.dialogsItems {
+
+}
+
+.messages {
+
+}
+

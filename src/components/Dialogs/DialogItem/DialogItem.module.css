@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+.dialog {
+    margin-bottom: 20px;
+}
+
+.dialog a {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #536016;
+}
+
+.dialog a:hover {
+    color: #ef852e;
+}
+
+.dialog a.active {
+    color: #5fa817;
+}

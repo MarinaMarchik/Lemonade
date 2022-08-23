@@ -7,7 +7,7 @@ const Post = (props) => {
           <img src="https://krot.info/uploads/posts/2022-03/thumbs/1646150913_1-krot-info-p-smeshnoi-khomyak-smeshnie-foto-1.jpg" alt=""/>
             {props.message}
           <div>
-              <span>{props.likeCounts} Like</span>
+              <span>{props.likesCount} Like</span>
           </div>
       </div>
   );
