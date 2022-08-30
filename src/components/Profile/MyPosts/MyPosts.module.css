@@ -1,4 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    color: #536016;
+}
 .posts {
-    padding: 15px;
+    padding: 30px;
+    position: relative;
 }
 
+.btn_post {
+    position: relative;
+    left: 220px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #ef852e;
+    border: transparent;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px -3px rgba(34, 60, 80, 0.6) inset;
+}
+
+.btn_post:hover {
+    background-color: #5fa817;
+}
+
+.btn_post:active {
+    background-color: #4f8f10;
+}
+
+.area {
+    border: 2px solid #98c415;
+    border-radius: 10px;
+}

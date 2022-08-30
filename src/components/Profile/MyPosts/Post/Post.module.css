@@ -1,9 +1,29 @@
 .item {
-
+    position: relative;
+    margin: 40px 0;
+    box-sizing: border-box;
 }
 
-.item img {
+.post {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 500px;
+    height: 70px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+}
+
+.post img {
+    position: absolute;
+    top: -17px;
+    left: -12px;
     width: 80px;
     border: 3px solid #81a611;
     border-radius: 50%;
+    margin-right: 25px;
+}
+
+.post_text {
+    margin-left: 60px;
 }
