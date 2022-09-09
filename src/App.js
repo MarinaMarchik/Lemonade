@@ -12,20 +12,22 @@ import {Routes, Route} from "react-router-dom";
 
 function App(props) {
     return (
-            <div className='app-wrapper'>
-                <Header/>
-                <Navbar/>
-                <div className='app-wrapper-content'>
-                    <Routes>
-                        <Route path="/" element={<Profile state={props.state.profilePage} addPost={props.addPost} updateNewPostText={props.updateNewPostText}/>}/>
-                        <Route path="/profile" element={<Profile state={props.state.profilePage} addPost={props.addPost} updateNewPostText={props.updateNewPostText}/>}/>
-                        <Route path="/dialogs" element={<Dialogs state={props.state.dialogsPage}/>}/>
-                        <Route path="/news" element={<News />}/>
-                        <Route path="/music" element={<Music />}/>
-                        <Route path="/settings" element={<Settings />}/>
-                    </Routes>
-                </div>
+        <div className='app-wrapper'>
+            <Header/>
+            <Navbar/>
+            <div className='app-wrapper-content'>
+                <Routes>
+                    <Route path="/" element={<Profile state={props.state.profilePage} dispatch={props.dispatch}/>}/>
+                    <Route path="/profile"
+                           element={<Profile state={props.state.profilePage} dispatch={props.dispatch}/>}/>
+                    <Route path="/dialogs" element={<Dialogs state={props.state.dialogsPage} dispatch={props.dispatch}
+                                                             newMessageText={props.state.newMessageText}/>}/>
+                    <Route path="/news" element={<News/>}/>
+                    <Route path="/music" element={<Music/>}/>
+                    <Route path="/settings" element={<Settings/>}/>
+                </Routes>
             </div>
+        </div>
     );
 }
 
