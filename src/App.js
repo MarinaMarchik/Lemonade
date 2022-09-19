@@ -17,10 +17,10 @@ function App(props) {
             <Navbar/>
             <div className='app-wrapper-content'>
                 <Routes>
-                    <Route path="/" element={<Profile state={props.state.profilePage} dispatch={props.dispatch}/>}/>
+                    <Route path="/" element={<Profile store={props.store} />}/>
                     <Route path="/profile"
-                           element={<Profile state={props.state.profilePage} dispatch={props.dispatch}/>}/>
-                    <Route path="/dialogs" element={<Dialogs state={props.state.dialogsPage} dispatch={props.dispatch}
+                           element={<Profile store={props.store} />}/>
+                    <Route path="/dialogs" element={<Dialogs  state={props.state.dialogsPage} dispatch={props.dispatch}
                                                              newMessageText={props.state.newMessageText}/>}/>
                     <Route path="/news" element={<News/>}/>
                     <Route path="/music" element={<Music/>}/>
